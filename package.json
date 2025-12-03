@@ -1,0 +1,48 @@
+{
+  "name": "quiz",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/material": "^5.17.1",
+    "@mui/x-date-pickers": "^5.0.17",
+    "@types/react-datepicker": "^6.2.0",
+    "axios": "^1.8.4",
+    "date-fns": "^2.30.0",
+    "express-fileupload": "^1.5.1",
+    "firebase": "^11.5.0",
+    "framer-motion": "^12.6.3",
+    "html2canvas": "^1.4.1",
+    "jsonwebtoken": "^9.0.2",
+    "jspdf": "^3.0.1",
+    "lucide-react": "^0.483.0",
+    "next": "^15.2.4",
+    "react": "^18.3.1",
+    "react-datepicker": "^8.3.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.5.0",
+    "react-router-dom": "^7.4.0",
+    "react-toastify": "^11.0.5",
+    "swiper": "^11.2.5",
+    "tostify": "^0.0.1"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^3",
+    "@tailwindcss/postcss": "^4",
+    "@types/jsonwebtoken": "^9.0.9",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "^15.2.4",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
