@@ -9,13 +9,13 @@ import { getFirestore } from "firebase/firestore"; // Import Firestore
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDxx6o10LUuNRABDgCurGQw9qVkCJywq-k",
-  authDomain: "hindutva-5b837.firebaseapp.com",
-  projectId: "hindutva-5b837",
-  storageBucket: "hindutva-5b837.firebasestorage.app",
-  messagingSenderId: "386458548506",
-  appId: "1:386458548506:web:a0634ddbca8c17470b14a3",
-  measurementId: "G-4F4MQ3QF4Z"
+  apiKey: firebase_api_key,
+  authDomain: authDomain,
+  projectId: projectId,
+  storageBucket: storageBucket,
+  messagingSenderId:  messagingSenderId,
+  appId: app_ID,
+  measurementId: measurementId
 };
 
 // Initialize Firebase
