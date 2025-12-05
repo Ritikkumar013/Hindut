@@ -1,16 +1,16 @@
 "use client";
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 
 const AboutUs = () => {
-  const [selected, setSelected] = useState<number | null>(null);
+  // const [selected, setSelected] = useState<number | null>(null);
 
-  const toggle = (id: number) => {
-    if (selected === id) {
-      return setSelected(null);
-    }
-    setSelected(id);
-  };
+  // const toggle = (id: number) => {
+  //   if (selected === id) {
+  //     return setSelected(null);
+  //   }
+  //   setSelected(id);
+  // };
 
   return (
     <div className="">
@@ -57,31 +57,6 @@ const AboutUs = () => {
             </div>
           </div>
 
-          {/* Accordion Section */}
-          {/* <div className="p-3 rounded-md border-b text-black bg-white">
-            <div className="flex justify-between" onClick={() => toggle(1)}>
-              <h2 className="text-base">1.) This is Accordion 1</h2>
-              <i
-                className={`fa-solid fa-angle-down flex items-center ${
-                  selected === 1 ? "rotate-180" : ""
-                }`}
-              ></i>
-            </div>
-            <div
-              className={
-                selected === 1
-                  ? "text-sm py-2 text-[#ABA3A3] duration-1000 ease-in-out"
-                  : "hidden"
-              }
-            >
-              <p className="text-sm">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry&apos;s standard
-                dummy text ever since the 1500s. Lorem Ipsum is simply dummy
-                text of the printing
-              </p>
-            </div>
-          </div> */}
         </div>
       </div>
 
