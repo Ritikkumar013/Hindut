@@ -3,7 +3,7 @@ import React from "react";
 
 const Banner2 = () => {
   return (
-    <div className="bg-[url('/bannerDark.jpg')] sm:bg-[url('/bannerDark.jpg')] bg-center bg-cover min-h-screen w-full flex items-center lg:py-24 md:py-20 pt-32">
+    <div className="bg-[url('/bgRed.jpg')] sm:bg-[url('/bgRed.jpg')] bg-center bg-cover min-h-screen w-full flex items-center lg:py-24 md:py-20 pt-32">
       <div className="   mx-auto px-8 flex flex-col md:flex-row lg:flex-row items-center lg:gap-8 md:gap-2">
         {/* Left Side - Text */}
         <div className="w-full lg:w-1/2 text-left space-y-6">
@@ -23,7 +23,7 @@ const Banner2 = () => {
               className="w-full placeholder:text-white sm:w-72 p-3 border border-orange-50 focus:ring-2 focus:ring-orange-500 outline-none rounded-md"
               type="email"
             />
-            <button className="w-full sm:w-auto bg-orange-200 p-3 px-8 text-orange-600 font-semibold  transition duration-300 rounded-md">
+            <button className="w-full sm:w-auto bg-orange-200 hover:bg-orange-300 hover:text-white/80 p-3 px-8 text-orange-600 font-semibold  transition duration-300 rounded-md">
               Submit
             </button>
           </div>
