@@ -13,18 +13,18 @@ const page = () => {
       {/* Toast Container - Required for toasts to appear */}
       <ToastContainer position="top-center" autoClose={3000} transition={Zoom} />
 
-      <div>
+      <div className="">
         <Banner2 />
       </div>
 
-      <div className="-mt-32 bg-[url('/Group_48.png')] bg-cover bg-center min-h-[220vh]">
+      <div className="md:-mt-20 mt-10  bg-[url('/Group_48.png')] bg-cover bg-center min-h-[220vh]">
         <Ancientscroll />
 
         <Aboutus />
       </div>
 
-      <div className="lg:-mt-35 md:-mt-45 mt-20">
-        <Videosection />
+      <div className="lg:-mt-35 md:-mt-20 mt-20">
+        <Videosection />  
       </div>
 
       <div>

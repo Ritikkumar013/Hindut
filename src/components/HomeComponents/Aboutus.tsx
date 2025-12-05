@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Aboutus = () => {
   return (
-    <div className="container mx-auto px-4 py-12">
+    <div className="container mx-auto px-4 py-20">
       <div className="flex lg:flex-row md:flex-row flex-col lg:items-center md:items-center items-start relative font-serif">
         <div className="basis-1/2 flex lg:justify-center pl-9">
           <Image
@@ -17,10 +17,10 @@ const Aboutus = () => {
         <div className="basis-1/2 lg:pr-16 md:p-5 p-7">
           <h1 className="text-5xl text-orange-500 font-bold">About Us</h1>
           <p className="mt-6 text-gray-700 leading-relaxed">
-            Welcome to Hindutva Quiz, your premier platform for exploring and testing your knowledge of Hindu culture, mythology, and traditions. Our mission is to make learning about Hinduism engaging, interactive, and accessible to everyone.
+            Hindutva is a simple and friendly learning platform designed to help people understand Hinduism with clarity. Through stories, examples, and interactive learning, we make ancient knowledge easy to understand for today’s generation.
           </p>
           <p className="mt-4 text-gray-700 leading-relaxed">
-            We offer carefully curated quizzes that cover various aspects of Hinduism, including:
+           Read More:
           </p>
           <ul className="mt-4 text-gray-700 list-disc list-inside space-y-2">
             <li>Ancient scriptures and their teachings</li>

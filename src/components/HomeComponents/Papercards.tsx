@@ -85,21 +85,22 @@ const Papercards = () => {
   const features = [
     {
       img: "/paper1.png",
-      title: "Time-Based Challenges",
-      description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+      title: "Clear Understanding of Hinduism", 
+
+       description: "Get well-structured lessons on culture, values, history, and scriptures",
+  
     },
     {
       img: "/paper2.png",
-      title: "Mission & Challenges",
+      title: "Engaging Learning",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Experience fun activities and quizzes that help you remember better.",
     },
     {
       img: "/paper3.png",
-      title: "Customizable Quiz Difficulty",
+      title: "Cultural Awareness",
       description:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
+        "Connect with the spiritual and cultural roots of Hindu heritage.",
     },
   ];
 

@@ -4,24 +4,29 @@ import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const faqs = [
   {
-    question: "What is your refund policy?",
+    question: "Our Purpose",
     answer:
-      "We offer a full refund within 30 days of purchase if you're not satisfied with our product.",
+      "HindutavQuiz was created to bridge the gap between ancient Hindu wisdom and modern interactive learning. Our aim is to make dharmic knowledge simple to understand yet profound enough to inspire every learner.",
   },
   {
-    question: "How do I track my order?",
+    question: "What We Offer",
     answer:
-      "You can track your order by logging into your account and visiting the 'Orders' section.",
+      "We offer quizzes, learning modules, challenges, and curated content based on scriptures, mythology, rituals, values, festivals, and Hindu cultural foundations — all presented with clarity and accuracy.",
   },
   {
-    question: "Do you offer international shipping?",
+    question: "Who Is Hindutva For?",
     answer:
-      "Yes, we ship internationally. Shipping rates and delivery times vary depending on the destination.",
+      "Whether you are a student, a parent, a devotee, or simply someone curious about India’s spiritual heritage, Hindutva offers tools for everyone to learn, grow, and rediscover the essence of dharma.",
   },
   {
-    question: "Do you offer international shipping?",
+    question: "Why Hindu Dharma?",
     answer:
-      "Yes, we ship internationally. Shipping rates and delivery times vary depending on the destination.",
+      "Hinduism is one of the world’s oldest and richest knowledge systems. Its philosophies on life, duty, devotion, and inner growth offer guidance that remains timeless. Through our platform, we help learners explore these teachings in an approachable way.",
+  },
+   {
+    question: "Our Commitment",
+    answer:
+      "We are committed to accuracy, respect, and authenticity. Every quiz and learning element is thoughtfully crafted to honor Hindu beliefs and present them responsibly to learners around the world.",
   },
 ];
 

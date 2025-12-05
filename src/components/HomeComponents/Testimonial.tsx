@@ -113,20 +113,20 @@ import { motion } from "framer-motion";
 
 const testimonials = [
   {
-    text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. It has been the industry's standard dummy",
-    name: "Sweta Tripathi",
+    text: "I always wanted a structured way to teach my kids about our culture. These quizzes made it so easy and enjoyable for them.",
+    name: "Priya Iyer",
     designation: "Senior Designer",
     image: "/jaya.jpg",
   },
   {
-    text: "The quick brown fox jumps over the lazy dog. A classic sentence used to showcase fonts and text appearance in various designs.",
-    name: "John Doe",
+    text: "Hindutva Quiz is the perfect platform to learn about Hinduism in a fun way. The quizzes are simple, engaging, and surprisingly informative.",
+    name: "Aarav Sharma",
     designation: "Software Engineer",
     image: "/1.png",
   },
   {
-    text: "Design is intelligence made visible. The best designs come from a deep understanding of the user experience.",
-    name: "Jane Smith",
+    text: "The content is accurate, meaningful, and beautifully presented. I learned so many things I never knew about our scriptures.",
+    name: " Aniket Joshi",
     designation: "Creative Director",
     image: "/2.png",
   },

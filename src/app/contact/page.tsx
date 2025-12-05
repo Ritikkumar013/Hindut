@@ -21,9 +21,10 @@ const Contact = () => {
       {/* Section 2 - Contact Information */}
       <div className="bg-white py-14">
         <div className="max-w-screen-xl container mx-auto md:px-10 text-center px-5">
-          <h1 className="mb-3 text-3xl text-orange-600">Welcome to Auto Bargain Support</h1>
+          <h1 className="mb-3 text-3xl text-orange-600">Have a question or suggestion? We’d love to hear from you. Reach out anytime and our team will get back to you soon.</h1>
           <p className="mb-10 max-w-[650px] mx-auto text-xs text-gray-600">
-            We&apos;re here to help. Looking for customer service contact information? Explore support resources for the relevant products below to find the best way to reach out about your issue.
+            You can also submit your message through the contact form on this page, and we will respond as quickly as possible.
+
           </p>
 
           <div className="flex flex-col items-center md:flex-row md:max-w-3xl mx-auto gap-5 justify-center mb-4">
